@@ -57,6 +57,12 @@ stages:
     - path: artifacts/split_data_dir/test.csv
       md5: 8e46ccb923c28b3da99054cb5056f29e
       size: 28663
+    - path: configs/config.yaml
+      md5: 74effd0478f4496004490c5e49ff319f
+      size: 695
+    - path: params.yaml
+      md5: 7530f3196508239f5ab769c2490c8232
+      size: 181
     - path: src/stage_04_evaluate.py
       md5: 1c4b857fa7b2c5a849153bebbd6bbe2b
       size: 2467
